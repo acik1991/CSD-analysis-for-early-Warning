@@ -8,7 +8,7 @@ from scipy.signal import find_peaks
 
 # --- 1. Page Configuration ---
 st.set_page_config(page_title="Early Warning System: CSD", layout="wide")
-st.title("🌊 Early Warning System: Critical Slowing Down")
+st.title("🌊 Early Warning System: Critical Slowing Down using Water level Time Series Data")
 st.markdown("""
 This dashboard allows you to detect **Early Warning Signals (EWS)** in time-series data. 
 It uses **Critical Slowing Down (CSD)** indicators: **Variance** and **Autocorrelation**.
@@ -339,4 +339,5 @@ if uploaded_file is not None:
 
 else:
     st.info("👈 Please upload a CSV file from the sidebar to begin.")
+
     st.markdown("Expected format: A CSV with a Date column and a Value column.")
