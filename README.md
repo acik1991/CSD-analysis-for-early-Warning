@@ -1,4 +1,4 @@
-# CSD-analysis-for-early-Warning
+# CSD-analysis-for-early-Warning using Water Level Time Series Data
 analyse variance of time series data to detect system instability and  flags early warning
 
 # Application Requirements: Early Warning System for Critical Slowing Down (CSD)
