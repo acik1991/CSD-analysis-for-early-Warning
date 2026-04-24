@@ -201,7 +201,7 @@ if uploaded_file is not None:
                 })
             
             results_df = pd.DataFrame(results)
-            st.dataframe(results_df.style.applymap(
+            st.dataframe(results_df.style.map(
                 lambda x: 'color: green' if x == '✅ Detected' else ('color: red' if x == '❌ Missed' else ''), 
                 subset=['Status']
             ), use_container_width=True)
